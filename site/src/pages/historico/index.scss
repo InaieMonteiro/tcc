@@ -1,0 +1,51 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cardápio */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para cada item do cardápio */
+  .menu-item {
+    width: 300px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para preços */
+  .menu-item p.price {
+    font-weight: bold;
+    color: #f07f19;
+  }
+  

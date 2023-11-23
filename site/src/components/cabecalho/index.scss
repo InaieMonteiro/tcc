@@ -1,0 +1,47 @@
+
+* a {
+    color: #FFF;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pag-inicial{
+    padding: 30px;
+}
+
+.pag-inicial  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ .pag-inicial > .corzinha{
+    color: #ffe600;
+    height: 50%;
+}
+
+
+.pag-inicial img:hover{
+    cursor: pointer;
+}
+
+.pag-inicial img{
+    width: 90px;
+    background-color: #FFF;
+    border-radius: 80px;
+}
+
+.pag-inicial span:hover{
+background-color: #FFF;
+color: rgb(0, 0, 0);
+border-radius: 40PX;
+padding: 10px;
+transition: 0.5s;
+align-items: start;
+cursor: pointer;
+}

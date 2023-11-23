@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.one {
+    background-color: black;
+    height: 100vh;
+}
+
+
+.am h1 {
+    color: yellow;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.rodando img {
+    height: 500px;
+
+}
+
+.antes button{
+   height: 50px;
+   
+    
+}
+
+.dps img{
+    height: 20px;
+}
+
+.aprezentacao h1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.aprezentacao h2{
+    display: flex;
+    justify-content: center; 
+}
+
+.aprez h2 {
+    padding: 20px;
+}
+
+
+.aprez h1 {
+    padding: 20px;
+}
+
+.rodando {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.rodando button {
+    padding: 25px;
+    background-color: black;
+    color: yellow;
+    border-radius: 15px;
+    border: 2px solid yellow;
+
+}
+/* Adicione estas regras ao seu arquivo CSS/SCSS */
+
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+
+.rodando button:hover {
+    border: 2px double rgb(255, 255, 255);
+    cursor: pointer;
+    color: white;
+
+}
+
+
+
+.image-transition {
+    transition: opacity 1s ease; /* Adiciona uma transição suave na opacidade da imagem */
+  }
+  
+
+
+.rodando button,
+img {
+    margin: 10px;
+}
+
+.carda{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 65px;
+}
+
+.carda button{
+    padding: 20px;
+    width: 160px;
+background-color: yellow;
+border-radius: 15px;
+
+}
+ 
+.carda button:hover{
+    cursor: pointer;
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+}

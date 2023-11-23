@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.cor-antes {
+    background-color: yellow;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+
+.entrada-saida {
+    background-color: yellow;
+    padding: 20px;
+    border-bottom: 10px solid black;
+}
+
+.entrada-saida h1 {
+    color: black;
+}
+
+.cor-baixo {
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+}
+
+.back {
+    background-color: #D9D9D9;
+    height: 740px;
+}
+
+
+table .six{
+    flex-wrap: wrap;
+}
+
+.table {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+table thead {
+    display: flex;
+    // width: 100%;
+}
+
+table tbody {
+    display: flex;
+    width: 100%;
+}
+
+thead tr {
+    display: flex;
+    width: 70%;
+}
+
+tbody tr {
+    display: flex;
+    width: 70%;
+}
+
+thead tr th {
+    display: flex;
+    width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    padding: 3px;
+}
+
+tbody tr td {
+    display: flex;
+    width: 20%;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    padding: 3px;
+}
+
+
+table thead tr {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+table tbody tr {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.table {
+    display: flex;
+
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    /* Adicione esta linha */
+    width: 96%;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    right: 0;
+
+
+}
+
+.icons img {
+    height: 40px;
+    margin-bottom: 10px;
+    /* Adicione espaço entre as imagens, se necessário */
+    cursor: pointer;
+}
+
+
+.rodazin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: yellow;
+    width: 100%;
+    border-top: 4px solid black;
+
+}
+
+.novo {
+    display: flex;
+    justify-content: center;
+}
+
+.rodazin button {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.sair{
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}

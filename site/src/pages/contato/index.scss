@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.tudinho {
+    background-image: url(../home/img/fundonovo.png);
+    background-size: cover; 
+    text-align: center;
+    background-attachment: fixed
+}
+
+.desc h1 {
+    color: yellow;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+}
+
+.alin {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.one1,
+.two,
+.thre,
+.four {
+    width: 70%; /* Divide o espaço horizontal em 2 colunas */
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.thre img{
+    height: 40px;
+}
+
+.four img{
+    height: 25px;
+    
+}
+
+.fuor{
+    padding: 15px;
+}
+
+
+.one1,
+.two,
+.thre,
+.four,
+.inputas {
+    margin: 10px;
+}
+
+.inputas input {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid  white;
+    background: black;
+    color: yellow;
+}
+
+.sur h1{
+    color: yellow;
+    padding: 45px;
+}
+
+.sur h2{
+    display: flex;
+    justify-content: end;
+    padding-right: 105px;
+    font: 500;
+    color: yellow;
+    font-size: 30px;
+}
+
+.inputas {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+.input-group h2{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.input-one input{
+    padding: 20px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.input-two input{
+    padding: 20px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.input-thre input{
+    padding: 20px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.input-fuor input{
+    padding: 40px;
+    width: 290px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.inputas h2{
+    color:  yellow;
+}
+
+.pai button{
+    margin: 55px;
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+.input-group input:focus {
+    border: 2px solid yellow;
+    outline: none; /* Remova a borda de foco padrão do navegador */
+}   
+

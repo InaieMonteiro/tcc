@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+* h1 {
+
+    color: black;
+}
+
+.mae {
+    background-image: url(../batata/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.primeira{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.cabecalho-batata{
+    padding: 20px;
+}
+
+
+.cabecalho-batata h1{
+    font-size: 50px;
+    color: white;
+    
+}
+
+
+.corzs{
+    background-color: yellow;
+    height: 5px;
+    width: 100%;
+    border: solid 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.batata-a{
+    display: flex;
+    flex-direction: column;
+   cursor: pointer;
+}
+
+.batata-a img{
+    width: 260px;
+    height: 140px;
+ 
+}
+
+.paddin{
+    padding-top:180px ;
+}
+
+.fora{
+    background-color: black;
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+.fora img{
+    position: relative;
+    bottom: 50px;
+}
+
+.fora h1 span{
+    color: yellow;
+    font-size: 20px;
+}
+
+.costa h1{
+    font-size: 22px;
+
+}
+
+.paddin img{
+padding-left: 0px;
+
+}
+
+.pedido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.pedido a{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.pedido h1{
+    color: white;
+    position: relative;
+    top: 7px;
+}
+
+.pedido a:hover{
+    background-color: black;
+    border: solid yellow 1px;
+    color: white;
+    transition: 0.7s;
+}
+
+.batata-b{
+    display: flex;
+    flex-direction: column;
+}
+
+.batata-b{
+    padding-left: 52px;
+}
+
+.fora1{
+    background-color: black;
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+
+.fora1 img{
+    position: relative;
+    bottom: 50px;
+}
+
+.fora1 h1 span{
+    color: yellow;
+    font-size: 20px;
+position: relative;
+bottom: 40px;    
+}
+
+
+.batata-b{
+    padding-top:175px;
+}
+
+.pedido1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    position: relative;
+    bottom: 55px;
+}
+
+.pedido1 a{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+   
+}
+
+
+.pedido1 h1{
+    position: relative;
+    top: 7px;
+    font-size:22px;
+    padding: 12px;
+    color: white;
+}
+
+.pedido1 a:hover{
+    background-color: black;
+    border: solid yellow 1px;
+    color: white;
+    transition: 0.7s;
+}
+
+
+.pedido1 h1:hover{
+    color: yellow;
+}
+
+.pedido h1:hover{
+    color: yellow;
+}
+
+.pedido  span:hover{
+color: white;
+}
+
+
+.batata-b{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fora1{
+    background-color: black;
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+
+.fora1 img{
+    position: relative;
+    bottom: 50px;
+}
+
+.fora1 h1 span{
+    color: yellow;
+    font-size: 20px;
+position: relative;
+bottom: 40px;    
+}
+
+.segunda{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.pedido2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    position: relative;
+    bottom: 55px;
+
+}
+
+.pedido2 a{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+   
+}
+
+
+.pedido2 h1{
+    position: relative;
+    top: 7px;
+    font-size:22px;
+    padding: 12px;
+    color: white;
+}
+
+.pedido2 a:hover{
+    background-color: black;
+    border: solid yellow 1px;
+    color: white;
+    transition: 0.7s;
+}
+
+.fora2 span{
+    font-size: 20px ;
+    position: relative;
+    bottom: 35px;
+}
+
+
+
+.fora2 h1 span{
+    color: yellow;
+}
+
+.pedido2 h1:hover{
+    color: yellow;
+}
+
+.pedido2  span:hover{
+color: white;
+}
+
+.batata-c{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.paddin2{
+    background-color: black;
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+}
+   
+
+.fora2 img{
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    .primeira,
+    .segunda {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .batata-a,
+    .batata-b,
+    .batata-c {
+      width: 100%; 
+      margin-bottom: 20px; 
+    }
+  
+    .pedido,
+    .pedido1,
+    .pedido2 {
+      padding: 20px; 
+    }
+  
+    .fora,
+    .fora1,
+    .fora2 {
+      width: 100%;
+    }
+  }

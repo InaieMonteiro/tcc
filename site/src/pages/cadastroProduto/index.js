@@ -1,6 +1,6 @@
 import './index.scss';
 import { useState } from 'react';
-import { cadastrarFilme } from '../../api/filmeApi';
+import { cadastrarFilme } from '../';
 
 export default function () {
     const [nome, setNome] = useState('');

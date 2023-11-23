@@ -20,7 +20,7 @@ return(
                             </li>
                         </a>
 
-                        <a href='https://www.instagram.com/1ryanzy/' className='footer-link' id='instagram'>
+                        <a href='https://www.instagram.com/_therunnerburguers/' className='footer-link' id='instagram'>
                             <li class="fa-brands fa-facebook-f">
                             </li>
                         </a>
